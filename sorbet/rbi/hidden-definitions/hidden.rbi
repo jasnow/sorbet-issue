@@ -6900,6 +6900,10 @@ module IRB
   def self.version(); end
 end
 
+module ITypeAssert
+  Elem = ::T.let(nil, ::T.untyped)
+end
+
 class Integer
   include ::JSON::Ext::Generator::GeneratorMethods::Integer
   include ::ActiveSupport::NumericWithFormat
@@ -14275,6 +14279,10 @@ class SystemExit
   def status(); end
 
   def success?(); end
+end
+
+class TA
+  Elem = ::T.let(nil, ::T.untyped)
 end
 
 module TZInfo::RubyCoreSupport
