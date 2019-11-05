@@ -7190,7 +7190,7 @@
 # uninitialized constant Rails::Generators::TestCase::VERSION
 # wrong constant name properties
 # wrong constant name properties=
-# undefined singleton method `property<defaultArg>1' for `#<Module:0x00007f9d6b01a9b8>'
+# undefined singleton method `property<defaultArg>1' for `#<Module:0x00007fe8ad2058a8>'
 # wrong constant name <static-init>
 # wrong constant name properties
 # wrong constant name properties=
